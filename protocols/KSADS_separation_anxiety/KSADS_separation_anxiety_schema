@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-separation_anxiety/master/protocols/KSADS_separation_anxiety/KSADS_separation_anxiety_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "KSADS_separation_anxiety_schema",
+    "skos:prefLabel": "Separation Anxiety",
+    "schema:description": "Separation Anxiety section for KSADS interview",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/KSADS-separation_anxiety/master/protocols/KSADS_separation_anxiety/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "separation_anxiety",
+                "isAbout": "separation_anxiety",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "separation_anxiety"
+        ],
+        "shuffle": false
+    }
+}
